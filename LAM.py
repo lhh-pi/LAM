@@ -30,8 +30,8 @@ from SaliencyModel.BackProp import GaussianBlurPath
 # model = load_model('RRDBNet@Base')
 # model = load_model('SAN@Base')
 # model = load_model('HAT@Base')
-# model = load_model('DBPN@Base')
-model = load_model('SwinIR@Base')
+model = load_model('DBPN@Base')
+# model = load_model('SwinIR@Base')
 
 window_size = 16  # Define windoes_size of D
 img_lr, img_hr = prepare_images('./test_images/7.png')  # Change this image name
